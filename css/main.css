@@ -1,0 +1,151 @@
+/* this is my body format */
+body
+{
+  margin: 0;
+  font-family: sans-serif;
+}
+/* this is my nav */
+nav
+{
+position: fixed;
+width: 100%;
+background-color: #F4851D;
+height: 80px;
+ font-weight: bold;
+ margin-left: 10px;
+}
+/* my log nav img */
+nav img {
+
+float:left;
+height: 35px;
+margin-top: 20px;
+margin-left: 25px;
+}
+nav ul{
+  float: right;
+  margin-right: 50px;
+  margin-top: 30px;
+}
+/* padding is whats helps seperate my li */
+nav li{
+  display: inline-block;
+  text-decoration: none;
+  list-style: none;
+  padding: 0 10px;
+}
+/* top right nav text color */
+nav li>a{
+  text-decoration: none;
+  color: white;
+}
+
+/* this is my header */
+header{
+  float:right;
+  margin-right: 50px;
+  margin-top: 83px;
+}
+header input{
+  margin-right: -45px;
+  height: 35px;
+  width: 250px;
+}
+/* my whole mid section */
+p {
+  float: left;
+  margin: auto;
+  width: 100%;
+}
+/* big orange in mid section */
+.orange1{
+  display: inline-block;
+  width: 20%;
+  margin: 4%;
+  margin-left: -10px;
+  position:inherit;
+}
+/* paragaph in mid setion  */
+.text-info{
+  display: inline-block;
+  width: 27%;
+  margin-left: 23%;
+}
+/* paragaph in mid setion */
+.text-info p {
+  font-size: 36px;
+  color:orange;
+  line-height: 50px;
+  text-align: justify;
+  height: 170px;
+  width: 550px;
+}
+
+#color-orange
+{
+  color: orange;
+  font-weight: bold;
+}
+#teal
+{
+  color: #7cc6ba;
+  font-weight: bold;
+}
+#button-text{
+  color: white;
+}
+.text-info a{
+  background-color: orange;
+  border: 1px solid orange;
+  padding: 10px 25px;
+
+}
+.right-button{
+  display: inline-block;
+  margin-left: 60px;
+  padding-top:60px;
+}
+
+
+button{
+display: inline-block;
+  height: 35px;
+  width:50%;
+}
+.back-color-orange{
+  background-color: #F4851D
+
+
+}
+.back-color{
+  background-color:#7cc6ba
+
+}
+/* the footer */
+footer
+{
+  text-align: center;
+  height: 70px;
+  background-color: #7cc6ba;
+  bottom: 0px;
+  width: 100%;
+  position: fixed;
+  padding-bottom: 2.2%;
+}
+footer li{
+  display: inline-block;
+  font-size: 25px;
+  padding: 0 10px;
+}
+
+@media (max-width:768px){
+  *{
+  }
+  .orange1 {
+    display: none;
+   margin-left: 0px;
+    margin: 0%;
+  }
+  element.style {
+    margin-left: -130px;
+}
